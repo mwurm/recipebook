@@ -3,7 +3,7 @@
 The latest version of the recipe book can be found here:
 https://suse.github.io/recipebook/recipes.html
 
-* Clone the repo and open recipes.adoc locally in a browser that supports
+* Clone the repo and open rezepte.adoc locally in a browser that supports
   AsciiDoc or in another tool such as asciidoctor
 
 * Open this project in
@@ -11,7 +11,7 @@ https://suse.github.io/recipebook/recipes.html
   directly there.
 
 * The GitHub preview of the in-development recipes is at
-<<recipes.adoc#>>.
+<<rezepte.adoc#>>.
 
 === Contributing
 
@@ -22,7 +22,7 @@ Want to help? We love to hear that! Below are a few hints to guide you.
    to have a baseline to work from.
 2. Make sure you include a section identifier `[id='sec.recipe_name']` and a title `=== Recipe Name`
    each on their own line and separated by an empty line from other content
-3. Add a reference to the new recipe to recipes.adoc in the top level
+3. Add a reference to the new recipe to rezepte.adoc in the top level
 4. Add any images to images/<recipe_name>/
 5. build the docs with docbuild.sh (requires asciidoctor, see below for install details)
 6. check the output at build/recipes.html to verify it matches the formatting you want
