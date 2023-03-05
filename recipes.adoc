@@ -243,6 +243,13 @@ ifndef::env-github[]
 include::recipes/mehlspeisen/brioche.adoc[]
 endif::[]
 
+ifdef::env-github[]
+<<recipes/mehlspeisen/waffeln.adoc#, Waffeln>>
+endif::[]
+ifndef::env-github[]
+include::recipes/mehlspeisen/waffeln.adoc[]
+endif::[]
+
 
 [id='sec.beverages']
 == Beverages
