@@ -231,6 +231,19 @@ include::recipes/seasonal/easter_bread.adoc[]
 endif::[]
 
 
+[id='sec.mehlspeisen']
+== Mehlspeisen
+
+Mehlspeisen sind süße oder pikante Gerichte aus Mehl, Eiern, Milch und Zucker. Bekannte Beispiele sind Kuchen, Strudel, Palatschinken und Knödel. Sie sind ein wichtiger Bestandteil vieler Küchen und werden oft als Dessert, Snack oder Hauptgericht serviert.
+
+ifdef::env-github[]
+<<recipes/mehlspeisen/brioche.adoc#, Brioche>>
+endif::[]
+ifndef::env-github[]
+include::recipes/mehlspeisen/brioche.adoc[]
+endif::[]
+
+
 [id='sec.beverages']
 == Beverages
 
